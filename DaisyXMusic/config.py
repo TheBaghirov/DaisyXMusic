@@ -24,14 +24,14 @@ if os.path.exists("local.env"):
 
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
+BOT_TOKEN = getenv("1840064670:AAHcK15UgsWluLYWkxa1cpZWTqRWuKAzjh0")
+BOT_NAME = getenv("MusicBotX")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
 admins = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME")
+API_ID = int(getenv("2840563", ""))
+API_HASH = getenv("afc1e6d26da17ea6da0db154067c7cc8")
+BOT_USERNAME = getenv("@MusicXMMCbot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "DaisyXhelper")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "DaisySupport_Official")
 PROJECT_NAME = getenv("PROJECT_NAME", "DaisyXMusic v5")
